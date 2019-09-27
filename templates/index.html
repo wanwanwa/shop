@@ -1,15 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>网上商城</title>
-
+    <link rel="stylesheet" href="css/index.css" >
 </head>
 <body>
-    <div id="top">
-        <span>登录</span>
-        <span>|</span>
-        <span>注册</span>
+    <div id="aTop">
+        <span id="logo">豆豆网</span>
+        <span id="aBox"><input id="aSearch" type="text" name="content"></span>
+        <button id="aButton">搜索</button>
+        <div id="aText">
+            <span id="login">登录</span>
+            <span>|</span>
+            <span id="register">注册</span>
+        </div>
     </div>
+    <div id="mainBody"></div>
+    <script src="js/views.js">
+    </script>
 </body>
 </html>
